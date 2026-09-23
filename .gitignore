@@ -1,2 +1,4 @@
 .DS_Store
 网页codex/
+node_modules
+dist
