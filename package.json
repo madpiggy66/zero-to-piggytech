@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/madpiggy66/zero-to-piggytech#readme",
   "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
     "vite": "^8.3.0"
   },
   "dependencies": {
-    "animejs": "^4.5.0"
+    "animejs": "^4.5.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   }
 }
