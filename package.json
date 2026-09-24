@@ -1,33 +1,19 @@
 {
-  "name": "study-code",
-  "version": "1.0.0",
-  "description": "> 这是 **零到全栈 · 模块 4.1：现代前端第一步——模块化** 的配套代码——\r > 网站**模块化改造之前**的起点版本。",
-  "main": "index.js",
+  "name": "zero-to-tech-4-5",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "hello": "git --version"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/madpiggy66/zero-to-piggytech.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/madpiggy66/zero-to-piggytech/issues"
-  },
-  "homepage": "https://github.com/madpiggy66/zero-to-piggytech#readme",
-  "devDependencies": {
-    "@vitejs/plugin-react": "^6.1.1",
-    "vite": "^8.3.0"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "animejs": "^4.5.0",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "animejs": "^4.4.1",
+    "next": "^15.5.24",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "allowScripts": {
+    "sharp@0.34.5": true
   }
 }

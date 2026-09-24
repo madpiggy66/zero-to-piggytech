@@ -1,4 +1,19 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# production
+build/
+dist/
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# misc
 .DS_Store
-网页codex/
-node_modules
-dist
+*.log
+.env*
